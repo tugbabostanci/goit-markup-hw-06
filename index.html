@@ -6,15 +6,26 @@
     <title>Document</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css">
     <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/tablet.css">
+    <link rel="stylesheet" href="./css/desktop.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap" rel="stylesheet">
 </head>
+  <body>
     <header>
         <div class="header-container">
             <div class="logo">
         <a class="logo" href="http://127.0.0.1:3000/index.html">WEB<span class="logo1color">STUDIO</span></a>
+           </div>
+           <div class="menu-svg-container">
+            <svg class="menu-svg" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M3.59961 6.00078C3.59961 5.68252 3.72604 5.3773 3.95108 5.15225C4.17612 4.92721 4.48135 4.80078 4.79961 4.80078H19.1996C19.5179 4.80078 19.8231 4.92721 20.0481 5.15225C20.2732 5.3773 20.3996 5.68252 20.3996 6.00078C20.3996 6.31904 20.2732 6.62427 20.0481 6.84931C19.8231 7.07435 19.5179 7.20078 19.1996 7.20078H4.79961C4.48135 7.20078 4.17612 7.07435 3.95108 6.84931C3.72604 6.62427 3.59961 6.31904 3.59961 6.00078Z" fill="#2F2F37"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M3.59961 12.0008C3.59961 11.6825 3.72604 11.3773 3.95108 11.1523C4.17612 10.9272 4.48135 10.8008 4.79961 10.8008H19.1996C19.5179 10.8008 19.8231 10.9272 20.0481 11.1523C20.2732 11.3773 20.3996 11.6825 20.3996 12.0008C20.3996 12.319 20.2732 12.6243 20.0481 12.8493C19.8231 13.0744 19.5179 13.2008 19.1996 13.2008H4.79961C4.48135 13.2008 4.17612 13.0744 3.95108 12.8493C3.72604 12.6243 3.59961 12.319 3.59961 12.0008Z" fill="#2F2F37"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M3.59961 18.0008C3.59961 17.6825 3.72604 17.3773 3.95108 17.1523C4.17612 16.9272 4.48135 16.8008 4.79961 16.8008H19.1996C19.5179 16.8008 19.8231 16.9272 20.0481 17.1523C20.2732 17.3773 20.3996 17.6825 20.3996 18.0008C20.3996 18.319 20.2732 18.6243 20.0481 18.8493C19.8231 19.0744 19.5179 19.2008 19.1996 19.2008H4.79961C4.48135 19.2008 4.17612 19.0744 3.95108 18.8493C3.72604 18.6243 3.59961 18.319 3.59961 18.0008Z" fill="#2F2F37"/>
+</svg>
+
            </div>
         <nav>
             <ul >
@@ -26,61 +37,70 @@
             </ul>
         
         </nav>
-            <div class="header-adress">
-           <address> 
+            <div class="header-address">
+               <address >
             <a class="mail" href="mailto:info@devstudio.com">info@devstudio.com
             </a>
             <a class="tel" href="tel:+11(000)111-11-11">+11 (000) 111-11-11</a>
-           </address>
+           </a>
+            </address> 
             </div>
     </div>
     </header>
     <main>
             <section class="sc1">
             <div class="container1">
-            <h1>Effective Solutions for Your Business</h1>
+            <h1 class="sc1-h1">Effective Solutions for Your Business</h1>
                 <button class="os-button">Order Service</button>
             </div>
             </section>
             <section class="sc2">
                 <div class="container2">
-                <ul>
-                    <li class="sc2-card"> <div class="sc2-svg-cont">
+        
+                    <div class="sc2-card-div">
+                         <div class="sc2-svg-cont">
                         <svg class="antenna"><use xlink:href="./images/icons.svg/symbol-defs.svg#antenna"></use></svg>
-                        </div>
-                            <h3>Strategy</h3>
+                         </div>
+                            <div>
+                            <h3 class="sc2-card-div-h3">Strategy</h3>
                             <p>Our goal is to identify the business
-                            problem to walk away with the perfect and creative solution. </p>
-                    </li>
-                    <li class="sc2-card">
+                            problem to walk away with the perfect and creative solution. </p></div>
+                         </div>
+                    <div class="sc2-card-div">
                         <div class="sc2-svg-cont">
                         <svg class="clock"><use xlink:href="./images/icons.svg/symbol-defs.svg#clock"></use></svg>
                         </div>
-                           <h3>Punctuality</h3>
+                        <div>
+                           <h3 class="sc2-card-div-h3">Punctuality</h3>
                            <p>Bring the key message to the brand's audience for the best price within the shortest possible time.</p>
-                    </li>
-                    <li class="sc2-card">
+                        </div>
+                        </div>
+                    
+                    <div class="sc2-card-div">
                         <div class="sc2-svg-cont">
                         <svg class="diagram"><use xlink:href="./images/icons.svg/symbol-defs.svg#diagram"></use></svg> 
                         </div>
-                            <h3>Diligence</h3>
+                        <div>
+                            <h3 class="sc2-card-div-h3">Diligence</h3>
                             <p>Research and confirm brands with the strongest digital growth opportunities and minimize risk.</p>
-                    </li>
-                    <li class="sc2-card">
+                    </div>
+                    </div>
+                    <div class="sc2-card-div">
                         <div class="sc2-svg-cont">
                          <svg class="astronaut"><use xlink:href="./images/icons.svg/symbol-defs.svg#astronaut"></use></svg>
                         </div>
-                             <h3>Technologies</h3>
+                        <div>
+                             <h3 class="sc2-card-div-h3">Technologies</h3>
                               <p>Design practice focused on digital experiences. We bring forth a deep passion for problem-solving.</p>
-                    </li>
-                </ul>
+                        </div>
+                        </div> 
               </div>
         </section>
         <section class="sc3">
+            <div class="container3">
             <h2>Our Team</h2>
-         <ul class="card-div">
-           
-            <li class="sc3-card"><img src="./images/teamcard1.jpg" alt="Mark Guerrero-Product Designer" width="264px">
+         <div class="card-container">
+            <div class="sc3-card"><img src="./images/teamcard1.jpg" alt="Mark Guerrero-Product Designer" width="264px" height="260px">
                 <h3>Mark Guerrero</h3>
                 <p>Producct Designer</p>
                 <div class="sm-div">
@@ -107,11 +127,11 @@
                         </li>        
                      </ul>                   
                 </div>
-                    
-            </li>
+                 </div>   
+            
                  
             
-             <li class="sc3-card"><img src="./images/teamcard2.jpg" alt="Tom Ford-Frontend Developer " width="264px">
+             <div class="sc3-card"><img src="./images/teamcard2.jpg" alt="Tom Ford-Frontend Developer " width="264px" height="260px">
                     <h3>Tom Ford</h3>
                     <p>Frontend Developer</p>
                     <div class="sm-div">
@@ -138,10 +158,8 @@
                         </li>        
                      </ul>                   
                     </div>
-                
-                
-            </li>
-             <li class="sc3-card"><img src="./images/teamcard3.jpg" alt="Camilla Garcia-Marketing" width="264px">
+            </div>
+             <div class="sc3-card"><img src="./images/teamcard3.jpg" alt="Camilla Garcia-Marketing" width="264px" height="260px">
                     <h3>Camila Garcia</h3>
                     <p>Marketing</p>
                     <div class="sm-div">
@@ -167,10 +185,10 @@
                         </svg>
                         </li>        
                      </ul>                   
-                    </div>
-               
-            </li>
-             <li class="sc3-card"><img src="./images/teamcard4.jpg" alt="Daniel Wilson-UI Designer" width="264px">
+                </div>
+            </div>
+
+             <div class="sc3-card"><img src="./images/teamcard4.jpg" alt="Daniel Wilson-UI Designer" width="264px" height="260px">
                     <h3>Daniel Wilson</h3>
                     <p>UI Designer</p>
                     <div class="sm-div">
@@ -197,19 +215,15 @@
                         </li>        
                      </ul>                   
                     </div>
-               
-               
-            </li>
-         </ul>
-           
+            </div>
+          </div>
         </section>
 
 
-        <section class="sc4">
-            <div class="container4">
+        <section class="sc4"> 
             <h2>Our Portfolio</h2>
-            <ul>
-                <li><img class="card-img" src="./images/img1.jpg" alt="Banking App visual" width="360px">
+            <div class="container4">
+                <div class="sc4-card"><img class="card-img" src="./images/img1.jpg" alt="Banking App visual" width="360px">
                  <div class="pcard">
                     <h3>Banking App</h3>
                     <p>App</p>  
@@ -217,8 +231,8 @@
                  <div class="overlay">
                         <p>14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App</p>
                     </div>
-                </li>
-                <li><img class="card-img" src="./images/img2.jpg" alt="Cashless Payment visual" width="360px">
+                </div>
+                <div class="sc4-card"><img class="card-img" src="./images/img2.jpg" alt="Cashless Payment visual" width="360px">
                     <div class="pcard">
                     <h3>Cashless Payment</h3>
                     <p>Marketing</p>
@@ -226,8 +240,8 @@
                 <div class="overlay">
                         <p>14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App</p>
                     </div>
-                </li>
-                <li ><img class="card-img" src="./images/img3.jpg" alt="Meditation App visual" width="360px">
+                </div>
+                <div class="sc4-card"><img class="card-img" src="./images/img3.jpg" alt="Meditation App visual" width="360px">
                   <div class="pcard">
                     <h3>Meditation App</h3>
                     <p>App</p>
@@ -235,8 +249,8 @@
                   <div class="overlay">
                         <p>14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App</p>
                     </div>
-                </li>
-                <li ><img class="card-img" src="./images/img4.jpg" alt="Taxi Service visual" width="360px">
+                </div>
+                <div class="sc4-card"><img class="card-img" src="./images/img4.jpg" alt="Taxi Service visual" width="360px">
                    <div class="pcard">
                     <h3>Taxi Service</h3>
                     <p>Marketing</p>
@@ -244,8 +258,8 @@
                    <div class="overlay">
                         <p>14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App</p>
                     </div>
-                </li>
-                <li ><img class="card-img" src="./images/img5.jpg" alt="Screen Illustrations visual" width="360px">
+                </div>
+                <div class="sc4-card"><img class="card-img" src="./images/img5.jpg" alt="Screen Illustrations visual" width="360px">
                    <div class="pcard">
                     <h3>Screen Illustrations</h3>
                     <p>Design</p>
@@ -253,8 +267,8 @@
                    <div class="overlay">
                         <p>14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App</p>
                     </div>
-                </li>
-                <li ><img class="card-img" src="./images/img6.jpg" alt="Online Courses visual" width="360px">
+                </div>
+                <div class="sc4-card" ><img class="card-img" src="./images/img6.jpg" alt="Online Courses visual" width="360px">
                   <div class="pcard">
                     <h3>Online Courses</h3>
                     <p>Marketing</p>
@@ -262,17 +276,17 @@
                   <div class="overlay">
                         <p>14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App</p>
                     </div>
-                </li>
+                </div>
             </div>
         </section>
     </main>
     <footer>
         <div class="footer-container">
-            <div class="footer-logo">
+            <div class="footer-logo footer-item">
         <a class="f-logo" href="http://127.0.0.1:3000/index.html">WEB<span class="logo2color">STUDIO</span></a>
         <p>Increase the flow of customers and sales for your business with digital marketing & growth solutions.</p>
         </div>
-        <div class="footer-sm-div">
+        <div class="footer-sm-div footer-item">
         <p>Social media</p>
               <ul class="footer-sm">
                         <li class="footer-sm-item">
@@ -297,12 +311,14 @@
                         </li>        
     </ul>         
         </div>
-        <div class="footer-form-div">
+        <div class="footer-form-div ">
             <form class="footer-f" >
+                <div class="footer-email-wrapper footer-item">
             <label  class="footer-label-email" for="email">Subscribe
             <input class="footer-email" type="email" name="email" placeholder="E-mail">
             </label>
-            <div class="footer-button-wrapper">
+            </div>
+            <div class="footer-button-wrapper footer-item">
             <button type="submit" name="subscribe">Subscribe </button>
             <svg class="subscribe-icon">
           <use xlink:href="./images/icons.svg/symbol-defs2.svg#icon-subscribe1"></use>
@@ -314,7 +330,7 @@
 
 
 
-    <div class="modal is-open"  >
+    <div class="modal "  >
     <div class="modal-content">
      <div class="close-div">
         <svg class="close-icon">
@@ -383,11 +399,57 @@
     </div>
     </div>
     </form>
-
    </div>
-    </footer>
-</body>
 
+       <div class="menu ">
+        <div class="menu-content">
+        <div class="menu-nav-content">
+            <nav>
+            <ul class="menu-nav">
+                <li><a href=""><span class="iris">Studio</span></a></li>
+                <li><a href="">Portfolio</a></li>
+                <li><a href="">Contacts</a></li>
+            </ul>
+            </nav>
+        </div>
+            <div >
+           <address class="menu-address">
+             <a href="tel:+11(000)111-11-11"><span class="iris">+11 (000) 111-11-11</span></a>
+             <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+           </address>
+        </div>
+
+        <div class="menu-sm">
+            <ul class="footer-sm">
+                        <li class="footer-sm-item">
+                            <svg class="instagram">
+                            <use xlink:href="./images/icons.svg/symbol-defs.svg#instagram"></use>
+                            </svg>
+                        </li>
+                        <li class="footer-sm-item">
+                            <svg class="facebook">
+                            <use xlink:href="./images/icons.svg/symbol-defs.svg#facebook"></use>
+                            </svg>
+                        </li>
+                        <li class="footer-sm-item">
+                            <svg class="twitter">
+                            <use xlink:href="./images/icons.svg/symbol-defs.svg#twitter"></use>
+                            </svg>
+                        </li>
+                        <li class="footer-sm-item">
+                            <svg class="linkedin">
+                            <use xlink:href="./images/icons.svg/symbol-defs.svg#linkedin"></use>
+                        </svg>
+                        </li>        
+             </ul>         
+
+        </div>
+        </div>
+      </div>
+       </div>
+
+    </footer>
 
 </div>
+</body>
 </html>

@@ -1,0 +1,149 @@
+@media (min-width:768px) and (max-width:1158px) {
+.header-container {
+    display: flex;
+    flex-direction: row;
+    max-width: 768px;
+    gap: 24px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.menu-svg {
+    display: none;
+}
+.header-nav {
+    display: flex;
+}
+.header-address {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 50px;
+    margin-left: 0px;
+}
+.mail {
+    display: flex;
+    margin-right: 0;
+}
+.tel {
+    display: flex;
+    margin-right: 0;
+}
+.container1 {
+    display: flex;
+    max-width: 768px;
+}
+h1 {
+    padding: 50px 230px;
+}
+.container2 {
+    max-width: 768px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    font-size: 16px;
+    padding: 20px;
+    margin: 20px;
+    
+
+}
+.sc2-card-div {
+
+  max-width: 356px;
+  flex-basis: calc((100% - 20px) / 2);  
+  padding: 0 10px 0 10px; 
+}
+.sc2-card-div-h3 {
+
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+    letter-spacing: 2%;
+    text-align: left;
+}
+
+.container3 {
+    max-width: 768px;
+    gap: 10px;
+    padding: 50px;
+    margin-top: 300px;
+}
+.card-container {
+    display: flex;
+    max-width: 768px;
+    flex-direction: row;
+    gap:50px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    
+}
+.sc3-card {
+    max-width: 264px ;
+    flex-basis: calc((100% - 50px) / 2);
+}
+
+.sc4 {
+    max-width: 768px;
+    gap: 10px;
+    flex-direction: column;
+   
+}
+.container4 {
+    max-width: 768px;
+    flex-direction: row;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+.sc4-card{
+    max-width: 356px ;
+    flex-basis: calc((100% - 50px) / 2);
+}
+footer {
+    max-width: 768px;
+}
+.footer-container {
+    max-width: 768px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 10;
+    padding: 10px;
+}
+.footer-item {
+    max-width: 356px ;
+    flex-basis: calc((100% - 10px) / 2);
+}
+.footer-f {
+    flex-direction: row ;
+    gap: 50px;
+}
+.footer-label-email {
+    color: white;
+    text-align: start;
+    padding-bottom: 10px;
+}
+.subscribe-icon {
+    
+    text-align: start;
+    fill: white;
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    top: 20%;
+    right: 85px;
+}
+.modal-form {
+    max-width: 408px;
+    height: 584px;
+}
+.modal-content-input {
+    width: 330px;
+   
+}
+.modal-content-textarea {
+    width: 330px;
+}
+}
