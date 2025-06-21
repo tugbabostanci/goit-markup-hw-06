@@ -65,7 +65,7 @@ header {
 
 .header-nav {
     gap: 50px;
-    display: flex;
+    display: none;
     flex-direction: row;
     justify-content:flex-end ;
     align-items: center;
@@ -177,14 +177,13 @@ ul {
     align-items: center;
     justify-content: center;
     margin-bottom: 0;
+    display: flex;
 }
 
-    
-    
-.antenna, .diagram, .clock, .astronaut {
+ .antenna, .diagram, .clock, .astronaut {
     width: 64px;
     height: 64px;
-    
+    display: none;
   
 }
 .sc2-svg-cont {
@@ -197,12 +196,14 @@ ul {
     font-weight: 700;
     font-size: 32px;
     line-height: 40px;
-    letter-spacing: 2%;
-    
-    
-    
+    letter-spacing: 2%;   
     
 }
+    
+    
+    
+    
+
 .sc2-card-div h3 {
     font-weight: 700;
 
