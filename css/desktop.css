@@ -58,7 +58,8 @@ h3 {
 
 .container1 {
     display: flex;
-    max-width: 1140px;
+    max-width: 1440px;
+    max-height: 600px;
     
 }
 .sc1-h1 {
@@ -79,6 +80,7 @@ margin: 50px 50px;
     flex-direction: row;
     gap: 20px;
     max-width: 1440px;
+    max-height: 600px;
      background-color: white;
     flex-wrap: nowrap;
     
@@ -139,6 +141,7 @@ margin: 50px 50px;
     align-items: center;
     flex-wrap: nowrap;
     margin-top: 100px;
+    background-color: #F4F4FD;
 }
 .card-container {
     display: flex;

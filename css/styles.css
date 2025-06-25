@@ -59,7 +59,7 @@ header {
 }
 .logo {
     
-   margin-top: 9px;
+   
   
 }
 
@@ -85,10 +85,12 @@ header {
 }
 .menu-svg {
     display: flex;
-    justify-content: flex-end;
+    justify-self: flex-end;
     align-items: center;
     margin-right: 0;
     padding-right: 0;
+    width: 24px;
+    height: 24px;
 }
 .mail {
     margin-right:30px ;
@@ -167,7 +169,7 @@ ul {
     flex-direction: column;
     gap: 50px;
     max-width: 320px;
-    max-height: 120px;
+    max-height: 432px;
     padding: 70px 0 0 0;;
 }
 .sc2-card-div {
@@ -218,7 +220,7 @@ ul {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-   margin-top: 700px;
+   margin-top: 400px;
      
 }
 .sc3-card {
