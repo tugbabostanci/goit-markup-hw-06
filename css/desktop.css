@@ -185,7 +185,7 @@ margin: 50px 50px;
 .sc4-card {
  position: relative;
   overflow: hidden; 
-  border-bottom: #E7E9FC solid 1px;
+  border: #E7E9FC solid 1px;
   text-align: center;
     
 }
