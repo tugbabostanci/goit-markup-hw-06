@@ -14,7 +14,7 @@ h3 {
     gap: 30px;
     padding: 30px 0px 50px 0px;
     
-    max-width: 1440px;
+    max-width: 1159px;
  
 
 }
@@ -59,7 +59,7 @@ h3 {
 .container1 {
     display: flex;
     max-width: 1440px;
-    max-height: 600px;
+    height: 600px;
     
 }
 .sc1-h1 {
@@ -72,15 +72,14 @@ h3 {
     margin-bottom: 50px;
 }
 .sc2 {
-padding: 150px 50px;
-margin: 50px 50px;
+padding: 70px 50px;
+
 }
 .container2 {
     display: flex;
     flex-direction: row;
     gap: 20px;
     max-width: 1440px;
-    max-height: 600px;
      background-color: white;
     flex-wrap: nowrap;
     
@@ -132,16 +131,20 @@ margin: 50px 50px;
     align-items: center;
     display: flex;
 }
+.sc3 {
+    background-color: #F4F4FD;
+}
 .container3 {
     display: flex;
-    max-width: 1440px;
+    max-width: 1159px;
     flex-direction: column;
     gap: 20px;
     justify-content: center;
     align-items: center;
     flex-wrap: nowrap;
     margin-top: 100px;
-    background-color: #F4F4FD;
+    margin: 0 auto;
+   
 }
 .card-container {
     display: flex;
