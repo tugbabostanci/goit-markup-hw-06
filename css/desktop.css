@@ -58,9 +58,8 @@ h3 {
 }
 
 .container1 {
-    display: flex;
     max-width: 1440px;
-    max-height: 600px;
+    height: 600px;
     
 }
 .sc1-h1 {
@@ -134,11 +133,11 @@ padding: 70px 50px;
 }
 .sc3 {
     background-color: #F4F4FD;
-    max-width: 1440px;
+   
 }
 .container3 {
     display: flex;
-    max-width: 1159px;
+    max-width: 1158px;
     flex-direction: column;
     gap: 20px;
     justify-content: center;
@@ -217,11 +216,11 @@ padding: 70px 50px;
     transform: translateY(0);
   }
 footer {
-    max-width: 1440px;
+    
     background-color: #2E2F42;
 }
 .footer-container {
-    max-width: 1159px;
+    max-width: 1158px;
     flex-direction: row;
     flex-wrap: nowrap;
     align-items: center;
