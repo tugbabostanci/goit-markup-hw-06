@@ -58,8 +58,8 @@ h3 {
 }
 
 .container1 {
-    max-width: 1440px;
     height: 600px;
+    max-width: 1440px;
     
 }
 .sc1-h1 {
@@ -82,6 +82,7 @@ padding: 70px 50px;
     max-width: 1440px;
      background-color: white;
     flex-wrap: nowrap;
+    margin: 0 auto;
     
 }
 .sc2-card-div {
