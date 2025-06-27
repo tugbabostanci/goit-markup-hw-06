@@ -209,17 +209,20 @@ ul {
     font-weight: 700;
 
 }
- 
+ .sc3 {
+    background-color: #F4F4FD;
+ }
 .container3 {
     max-width: 320px;
     text-align: center;
-    background-color: #F4F4FD;
+    
     display: flex;
     gap: 50px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
    margin-top: 400px;
+   margin: 0 auto;
      
 }
 .sc3-card {
@@ -417,7 +420,7 @@ a:hover, a:focus {
 footer {
    
     background-color: #2E2F42;
-    padding-bottom: 20px;
+  
     
 }
 
