@@ -6,6 +6,10 @@ h3 {
     line-height: 24px;
     letter-spacing: 2%;
 }
+.container {
+    max-width: 1158px;
+    margin: 0 auto;
+}
 .header-container {
     max-width: 1159px;
     display: flex;
@@ -75,7 +79,7 @@ h3 {
 padding: 70px 50px;
 
 }
-.container2 {
+.sc2-card{
     display: flex;
     flex-direction: row;
     gap: 20px;
@@ -173,11 +177,18 @@ padding: 70px 50px;
 }
 .sc4 {
     max-width: 1440px;
-    gap: 10px;
-    flex-direction: column;
+   
    
 }
 .container4 {
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   max-width: 1158px;
+   padding-top: 50px;
+}
+.sc4-container {
     max-width: 1140px;
     flex-direction: row;
     gap: 50px;
