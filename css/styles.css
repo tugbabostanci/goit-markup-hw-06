@@ -49,7 +49,7 @@ header {
 }
 .header-container {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     gap: 100px;
     padding: 20px;
@@ -91,6 +91,7 @@ header {
     padding-right: 0;
     width: 24px;
     height: 24px;
+   
 }
 .mail {
     margin-right:30px ;
@@ -135,6 +136,10 @@ ul {
     list-style-type: none;
  
 }
+.container {
+    width: 1158px;
+    margin: 0 auto;
+}
 
 
 .sc1 {
@@ -147,7 +152,7 @@ ul {
     display: flex;
     flex-direction: column;
     gap: 20px;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     max-width: 320px;
     background-color: #2E2F42B2;
@@ -172,7 +177,7 @@ ul {
     padding: 70px 0 0 0;;
 }
 .sc2-card-div {
-    max-width: 288px;
+   max-width: 288px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -515,6 +520,7 @@ footer p {
 }
 .footer-email {
 
+    color: #8E8F99;
     background-color: #2E2F42;
     border: 1px solid #F4F4FD;
     width: 264px;
@@ -538,6 +544,11 @@ button {
     border: none;
     
 }
+.footer-submit-button{
+    cursor: pointer;
+}
+
+
 .subscribe-icon {
     fill: white;
     width: 24px;

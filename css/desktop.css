@@ -176,7 +176,7 @@ padding: 70px 50px;
     padding-bottom: 20px;
 }
 .sc4 {
-    max-width: 1440px;
+   
    
    
 }
@@ -251,6 +251,8 @@ footer {
 .footer-f {
     flex-direction: row ;
     gap: 50px;
+    
+    
 }
 .footer-label-email {
     display: flex;
@@ -266,14 +268,15 @@ footer {
 .footer-submit-button {
     text-align: start;
     padding-left: 30px;
+    margin-top: 20px;
 }
 .subscribe-icon {
     fill: white;
     width: 24px;
     height: 24px;
     position: absolute;
-    top: 20%;
-    right: 20px;
+    top: 48%;
+    right: 23px;
 }
 .modal-form {
     max-width: 408px;
